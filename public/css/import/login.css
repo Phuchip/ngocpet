@@ -1,0 +1,122 @@
+/*Sidebar - Left*/
+
+/*Tài khoản*/
+.login #account{
+    position: relative;
+    display: block;
+    color: #fff;
+    padding: 8px 0px 8px 20px;
+}
+.login #account:before{
+    position: absolute;
+    content: '\f0c9';
+    font-family: 'FontAwesome';
+    top: 8px;
+    left: 20px;
+}
+#category-product-wp #account{
+	padding-left: 50px;
+}
+
+/*Đăng nhập*/
+.login #sign_in{
+    position: relative;
+    display: block;
+    color: #fff;
+    padding: 8px 0px 8px 20px;
+}
+.login #sign_in:before{
+    position: absolute;
+    content: '\f090';
+    font-family: 'FontAwesome';
+    top: 8px;
+    left: 20px;
+}
+
+/*Đăng ký*/
+.login #registration{
+    position: relative;
+    display: block;
+    color: #fff;
+    padding: 8px 0px 8px 20px;
+}
+.login #registration:before{
+    position: absolute;
+    content: '\f084';
+    font-family: 'FontAwesome';
+    top: 8px;
+    left: 20px;
+}
+
+/*Quên mật khẩu*/
+.login #forgot_pass{
+    position: relative;
+    display: block;
+    color: #fff;
+    padding: 8px 0px 8px 20px;
+}
+.login #forgot_pass:before{
+    position: absolute;
+    content: '\f05a';
+    font-family: 'FontAwesome';
+    top: 8px;
+    left: 20px;
+}
+
+/*Main Content - Right*/
+#breadcrumb-wp .secion-detail .list-item {padding-top: 15px;}
+#user-login #login-content .login-header{
+	border-bottom: 1px solid #80bb35;
+    border-radius: 0px 0px 0px 20px;
+}
+#user-login #login-content .section-title{
+    font-family: 'Roboto Medium';
+    font-size: 16px;
+    text-transform: uppercase;
+    width: max-content;
+    line-height: normal;
+    background: #80bb35;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;	
+}
+#login-content #login-form {width: 580px; margin: 0 auto; padding-top: 10px;}
+#login-content #login-form #form_reg label{
+	display: inline-block;
+	width: 30%;
+	margin: 5px 0px 5px 0px;
+	text-align: right;
+	padding: 20px 25px 0px 10px;
+}
+#login-content #login-form #form_reg #qmk {
+    font-family: 'Roboto Italic';
+    font-size: 14px;
+    color: #fe9705;
+    padding-left: 8px;
+}
+
+input[type='text'],input[type='password']{
+    width: 69%;
+    height: 36px;
+    padding: 7px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+input[type='submit'], #btn_reg{
+	font-family: 'Roboto Medium';
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 9px 10px;
+    text-align: center;
+    cursor: pointer;
+    background: #80bb35;
+    color: #ffffff;
+    border: none;
+    width: max-content;
+    text-transform: uppercase;
+}

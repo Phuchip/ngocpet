@@ -1,0 +1,85 @@
+/*CATEGOGRY PRODUCT*/
+#breadcrumb-wp{ margin-bottom: 20px;}
+#breadcrumb-wp .list-item li{ float: left;}
+#breadcrumb-wp .list-item li a{
+    position: relative;
+    display: block;
+    color: #333;
+    padding-left: 20px;
+    line-height: normal;
+}
+#breadcrumb-wp .list-item li:first-child a:before{
+    position: absolute;
+    content: '\f015';
+    font-family: 'FontAwesome';
+    top: 1px;
+    left: 0;
+    line-height: normal;
+}
+#breadcrumb-wp .list-item li:nth-child(n+2) a:before{
+    position: absolute;
+    content: '\f101';
+    font-family: 'FontAwesome';
+    top: 1px;
+    left: 8px;
+    line-height: normal;
+    color: #000000 !important;
+}
+.category-product-page #list-product-wp .section-title{ margin: 0;}
+.category-product-page #list-product-wp .section-head{ margin-bottom: 25px;}
+.filter-wp .desc{ margin-bottom: 10px; color: #666; text-align: right;}
+.filter-wp form {width: 250px; }
+.filter-wp form{height: 50px;}
+.filter-wp form label {
+    display: inline-block;
+    padding-right: 3px;
+    height: 30px;
+    line-height: 30px;
+}
+.filter-wp form select{
+    font-family: 'Roboto Regular';
+    display: inline-block;
+    position: relative;    
+    padding: 0px 13px;
+    border: 1px solid #cecece;
+    color: #666;
+    border-radius: 20px;
+    height: 35px !important;
+    line-height: 35px;
+    width: 72.5%;
+}
+
+.filter-wp form button{
+    position: relative;
+    left: -4px;
+    background: #bebebe;
+    border: none;
+    outline: none;
+    padding: 3px 15px;
+    line-height: 25px;
+    color: #fff;
+}
+.filter-wp form button:hover{ background: #a2a2a2;}
+
+
+#filter-product-wp{ background: #fff;}
+#filter-product-wp .section-detail{ padding: 15px 20px;}
+#filter-product-wp .section-detail table{
+    margin-bottom: 15px;
+}
+#filter-product-wp .section-detail table thead tr td{ 
+    font-size: 16px; 
+    color: #000; 
+    padding-bottom: 10px;
+}
+#filter-product-wp .section-detail table tbody tr td{ padding-bottom: 5px; padding-right: 10px;}
+#paging-wp{ text-align: center; margin-top: 25px;}
+#paging-wp .list-item{ display: inline-block;}
+#paging-wp .list-item li{ float: left; margin-right: 5px;}
+#paging-wp .list-item li:last-child{ margin-right: 0;}
+#paging-wp .list-item li a{
+    background: #ababab;
+    padding: 8px 12px;
+    color: #fff;
+}
+#paging-wp .list-item li a:hover{ background: #868686;}

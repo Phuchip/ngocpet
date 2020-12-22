@@ -1,0 +1,26 @@
+#login-content #form_reg .res-info {
+	font-family: 'Roboto Medium';
+	font-size: 18px;
+	padding-top: 20px;
+	color: #fe9705;
+	border-bottom: 1px dotted #80bb35;
+}
+
+input[type='text'],input[type='password'], input[type='date'], input[type='number'], input[type="email"], select{
+    width: 69%;
+    height: 36px;
+    padding: 7px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+#login-content #login-form #form_reg .note{color: red;}
+#breadcrumb-wp ul li a.bread-crumb{
+	font-family: 'Roboto Medium';
+	font-size: 15px;
+    color: #80bb35;
+}

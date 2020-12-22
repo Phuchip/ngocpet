@@ -1,0 +1,7 @@
+$id="4";
+// 2. Viết câu lệnh SQL để lấy ra dữ liệu mong muốn
+$sql = "
+SELECT *
+FROM tbl_upsell
+WHERE id_loai_san_pham = '".$id."'
+";
